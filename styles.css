@@ -93,6 +93,11 @@
   height: 2rem;
   border: none;
   border-radius: 5px;
+  background-color: #11ac3f;
+  color: #fff;
+}
+
+#submit:hover {
   background-color: #aaa;
 }
 
@@ -114,6 +119,7 @@
 .icon {
   padding-left: 1rem;
   padding-right: 3rem;
+  color: #c5ac1e;
 }
 
 h3 {
@@ -141,16 +147,30 @@ h3 {
   border: 1px solid #aaa;
   margin: 10px;
   border-radius: 3px;
+  padding-bottom: 20px;
 }
 
 .level {
-  background-color: #ccc;
+  background-color: #c5ac1e;
   width: 100%;
   padding: 10px 0;
   font-weight: bold;
 }
-.level h4 {
-  margin-top: 10px;
+
+.price {
+  margin: 20px;
+}
+
+ol li {
+  line-height: 1.5rem;
+}
+.btn {
+  height: 30px;
+  width: 70%;
+  margin-top: 20px;
+  background-color: #11ac3f;
+  border: none;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 600px) {
